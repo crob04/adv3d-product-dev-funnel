@@ -1,0 +1,37 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# next
+.next
+out
+
+# production
+build
+dist
+
+# misc
+.DS_Store
+*.log
+*.pem
+.env
+.env*.local
+.env.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# upstream task artifacts (kept locally for reference, not in repo)
+brief.md
+v3-cards/
+/tmp/product-dev-specs/
